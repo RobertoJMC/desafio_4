@@ -413,7 +413,7 @@ textarea{
         grid-template-areas: 
         "encabezado encabezado encabezado"
         "barra_lateral barra_lateral barra_lateral"
-        "pincipal principal principal"
+        "principal principal principal"
         "pie_de_pagina pie_de_pagina pie_de_pagina"
         ;
     }
@@ -496,6 +496,16 @@ textarea{
     }
 }
     @media screen and (max-width: 320px) {
+        .cuerpo_pagina{
+            display: grid;
+            grid-template-areas: 
+            "encabezado"
+            "barra_lateral"
+            "principal"
+            "pie_de_pagina"
+            ;
+            width: 315px;
+        }
         .encabezado{
             width: 310px;
         }
@@ -510,6 +520,10 @@ textarea{
         }
         .pie_de_pagina{
             width: 310px;
+        }
+        .principal{
+            display: inline-block;
+            width: 315px;
         }
         .bloque_main_1{
             width: 310px;
