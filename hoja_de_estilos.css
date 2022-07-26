@@ -373,6 +373,9 @@ textarea{
 .sec_1_servicios div h2{
     font-size: small;
 }
+.sec_1_servicios div:hover{
+    background-color: rgb(38, 163, 163);  
+}
 
 
 /* Estilos correspondientes al contenido de la pagina capacitacion */
