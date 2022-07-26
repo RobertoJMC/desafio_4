@@ -79,7 +79,7 @@ a:hover{
 }
 .logo_empresa{
     position: absolute;
-    top: 30px;
+    /* top: 30px; */
     grid-area: logo;   
 }
 
@@ -96,6 +96,9 @@ a:hover{
 .barra_lateral p{
     width: 10%;
     height: auto;
+}
+.barra_lateral:hover{
+    background-color: rgb(38, 163, 163);
 }
 
 
@@ -122,6 +125,9 @@ a:hover{
     height: 100%;
     border-radius: 5px;
 }
+.bloque_main_1:hover{
+    background-color: rgb(38, 163, 163);
+}
 .bloque_main_2{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -137,6 +143,9 @@ a:hover{
     width: 100%;
     height: 100%;
     border-radius: 5px;
+}
+.bloque_main_2:hover{
+    background-color: rgb(38, 163, 163);
 }
 .bloque_main_3{
     display: grid;
@@ -154,6 +163,9 @@ a:hover{
     height: 100%;
     border-radius: 5px;
 }
+.bloque_main_3:hover{
+    background-color: rgb(38, 163, 163);
+}
 .bloque_main_4{
     height: 9%;
     background-color: aliceblue;
@@ -164,9 +176,15 @@ a:hover{
     width: 100%;
     height: 40%;
 }
+.bloque_main_4:hover{
+    background-color: rgb(38, 163, 163);
+}
 .contenedor_tabla{
     background-color: aliceblue;
     border-radius: 5px;    
+}
+.contenedor_tabla:hover{
+    background-color: rgb(38, 163, 163);
 }
 .tabla th,td{
     padding: 10px;
@@ -180,6 +198,7 @@ a:hover{
 .tabla td{
     background-color: #16e49f;
 }
+
 
 
 /* Estilos para todos los pie de pagina */
@@ -196,6 +215,10 @@ a:hover{
     display: inline;
     margin-right: 10px;
     text-decoration-line: none;
+}
+.lista_footer li a img:hover{
+    width: 42px;
+    height: 42px;
 }
 
 
@@ -306,7 +329,12 @@ textarea{
     height: 400px;
     width: 400px;
 }
-
+.sec_1_contactanos div:hover{
+    background-color: rgb(38, 163, 163);
+}
+.sec_2_contactanos div:hover{
+    background-color: rgb(38, 163, 163);
+}
 
 /* Estilos correspondientes al contenido de la pagina empresa */
 .sec_1_empresa{
@@ -320,6 +348,9 @@ textarea{
 .mision_vision{
     font-weight: bold;
     font-size: larger;
+}
+.sec_1_empresa div:hover{
+    background-color: rgb(38, 163, 163);
 }
 
 
@@ -360,6 +391,12 @@ textarea{
 .capacitacion_bloque2 div{
     background-color: aliceblue;
     border-radius: 5px;
+}
+.capacitacion_bloque1 div:hover{
+    background-color: rgb(38, 163, 163);
+}
+.capacitacion_bloque2 div:hover{
+    background-color: rgb(38, 163, 163);
 }
 
 
